@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angulus</title>
+    <link rel="stylesheet" href="Angulus.css"/>
+    <link rel="stylesheet" href="seaching.css"/>
+</head>
+<body>
+    <nav class="Main-menu">
+        <label class="logo"><a href="index.html">Angulus</a></label>
+        <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="sorting.html">Sorting</a></li>
+            <li><a class="active" href="search.html">Searching</a></li>
+        </ul>
+    </nav>
+    
+        <div class="head-con">
+            <div class="search-head">
+                <h1>Enter Searching Value</h1>
+            </div>
+            <div class="input-sec">
+                <input id="input" type="text"/>
+                <button onclick="getValue();">Search</button>
+            </div>
+
+        </div>
+        <div class="result">
+            <h4>Position : </h4>
+        </div>
+        <div class="reset">
+            <button><a href="search.html">Reset Array</a></button>
+        </div>
+        <div class="value-contain">
+            <div id="show">
+            
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="search.js"></script>
+    <div class="sabout">
+        <h1>Linear Search</h1>
+        <p>The time complexity of above algorithm is O(n).</p>
+        <hr/>
+        <h1>Binary Search</h1>
+        <p>Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
+            <br/>
+            The time complexity of Binary Search can be written as:O(logn).
+        </p>
+    </div>
+    <footer>
+        <p>All &copy; write By Angulus</p>
+    </footer>
+</body>
+</html>

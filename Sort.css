@@ -1,0 +1,56 @@
+#merge{
+    padding: 5px;
+    font-size: 15px;
+    color: lightcyan;
+    background: rgb(3, 83, 163);
+    border-radius: 5px;
+}
+#insert{
+    padding: 5px;
+    font-size: 15px;
+    color: lightcyan;
+    background: rgb(3, 83, 163);
+    border-radius: 5px;
+}
+#selec{
+    padding: 5px;
+    font-size: 15px;
+    color: lightcyan;
+    background: rgb(3, 83, 163);
+    border-radius: 5px;
+}
+#bubble{
+    padding: 5px;
+    font-size: 15px;
+    color: lightcyan;
+    background: rgb(3, 83, 163);
+    border-radius: 5px;
+}
+#stop{
+    padding: 5px;
+    font-size: 15px;
+    color:black ;
+    background: #ff4d4d;
+    border-radius: 5px;
+}
+#reset{
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: #32ff7e;
+    border-radius: 5px;
+}
+.about{
+    margin: 50px;
+    color: #70a1ff;
+}
+.about h1{
+    border-bottom: .1px solid #954DBC  ;
+    margin-bottom: 5px;
+}
+.discrib{
+    color: lightgrey;
+}
+#step{
+    color: lightyellow;
+}

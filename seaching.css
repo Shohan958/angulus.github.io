@@ -1,0 +1,69 @@
+
+.head-con{
+    width: 900px;
+    margin: auto;
+    margin-top: 80px;
+}
+.search-head{
+    margin-left: 120px;
+    color: gray;
+}
+.input-sec{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.input-sec input{
+    padding: 6px;
+    background: none;
+    width: 200px;
+    border: 2px solid lightblue;
+    color: lightslategrey;
+}
+.input-sec button{
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.value-contain{
+    width: 1200px;
+    height: 300px;
+    background:rgba(228, 33, 153, 0.082);
+    overflow: hidden;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+}
+#show{
+    width: 1000px;
+    height: 200px;
+    background:none;
+    margin-top:100px;
+    margin-left: 100px;
+}
+.result{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 200px;
+    
+}
+.result h4{
+    color: lightskyblue;
+}
+.reset{
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 100px;
+}
+.reset button{
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.sabout{
+    margin-left: 30px;
+    margin-top: 80px;
+    color: lightskyblue;
+}

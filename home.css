@@ -1,0 +1,56 @@
+.welcome{
+    width: 900px;
+    height: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.matha{
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 50px;
+   overflow: hidden;
+}
+.matha h1{
+    color:#f368e0;
+}
+.matha h4{
+    color: #0abde3;
+    margin-top: 10px;
+}
+.my-img{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+}
+.shohan{
+    width: 90%;
+    height: 200px;
+    margin-left: 50px;
+    background:rgba(16, 47, 133, 0.07) ;
+    border-top: .3px solid rgba(138, 109, 28, 0.2);
+    border-bottom: .3px solid rgba(138, 109, 28, 0.2);
+}
+.my-img img{
+    width: 100px;
+    height: 120px;
+}
+.my-contain{
+    margin-top: 85px;
+    width: 200px;
+    float: left;
+    margin-left: 80px;
+    color: white;
+}
+.shohan:hover{
+    border: 0.3px solid white;
+    transition: .9s;
+}
+.my-contain p{
+    margin-top: 8px;
+}
+.about{
+    margin-left: 200px;
+    color:gray;
+}

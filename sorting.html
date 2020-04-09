@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angulus</title>
+    <link rel="stylesheet" href="Angulus.css"/>
+    <link rel="stylesheet" href="Sort.css"/>
+    <style>
+        body{
+            background-image: url(AngulsusD.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div {margin-left: 40px;margin-top: 20px}
+        text {fill: rgb(23, 184, 212);}
+        rect {fill:#C70039;}
+        .sorted {fill:grey;}
+        .min {fill:cyan;}
+        .testing {fill:#91C109 ;}
+    </style>
+</head>
+<body>
+    <nav class="Main-menu">
+        <label class="logo"><a href="index.html">Angulus</a></label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="sorting.html">Sorting</a></li>
+            <li><a href="search.html">Searching</a></li>
+        </ul>
+    </nav>
+    <div class="about">
+        <h1>Sorting Visualization</h1>
+    </div>
+    <div id="buttons">
+        <button id="merge"onclick="mergeSort()">Merge Sort</button>
+        <button id="insert" onclick="insertionSort()">Insertion Sort</button>
+        <button id="selec" onclick="selectionSort()">Selection Sort</button>
+        <button id="bubble" onclick="bubbleSort()">Bubble Sort</button>
+        <button id="stop" onclick="stop = true" style="margin-left:40px">Stop</button>
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <div id="step">Steps: <span id="counter">0</span></div>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="sort.js"></script>
+    <div class="discrib">
+        <h1>Bubble Sort</h1>
+        <p>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.</p>
+        <p>Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.<br/>
+
+            Best Case Time Complexity: O(n). Best case occurs when array is already sorted.<br/>
+            
+            Auxiliary Space: O(1)</p>
+            <hr/>
+            <h1>Selection Sort</h1>
+            <p>The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+                Time Complexity: O(n2) as there are two nested loops.<br/>
+
+                Auxiliary Space: O(1)<br/>
+                The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.<br/>
+            </p>
+            <hr/>
+            <h1>Insertion Sort</h1>
+            <p>
+                Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.<br/>
+                Time Complexity: O(n*2)
+            </p>
+            <hr/>
+            <h1>Merge Sort</h1>
+            <p>Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.<br/>
+                Time Complexity: O(nlogn).
+            </p>
+
+    </div>
+    <footer>
+        <p>All &copy; write By Angulus</p>
+    </footer>
+</body>
+</html>
